@@ -21,6 +21,7 @@ body{
     width: 100%;
     top: 30px;
     z-index: 11;
+    
 }
 
 .header-nav a {
@@ -539,4 +540,9 @@ footer {
         bottom: 54px;
         z-index: 10;
     }
+}
+
+/*スライダー ドット*/
+.slick-dots li button:before {
+    font-size: 10px;
 }
